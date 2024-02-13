@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #091220;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #091220;
+}
+
+header .link__block{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .link__block a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+main {
+    width: 1146px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+
+main .text {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 150px;
+}
+
+main .text .text__ai h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: #3A68B8;
+}
+
+main .text .text__ai h1 {
+    font-size: 55px;
+    font-weight: 800;
+
+    color: white;
+}
+
+main .text .text__ai p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+
+    color: white;
+}
+
+main .text .text__ai button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 12px 22px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border: none;
+
+    color: white;
+    background-color: #3A68B8;
+}
+
+main .text .text__ai button img {
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+
+main .text .rocket__image{
+    height: 415px;
+    width: 415px;
+    min-height: 415px;
+    min-width: 415px;
+}
+
+main .text .rocket__image img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 1400px;
+    height: 117px;
+    padding-top: 60px;
+}
+
+.logo img {
+    height: 59px;
+    width: 200px;
+    padding-right: 109px;
+}
